@@ -1,0 +1,38 @@
+.arrow{
+    height: 850px;
+    margin-top: 250px;
+}
+
+.arrow-inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.arrow-image{
+    margin-right: 50px;
+}
+
+.arrow-box{
+    width: 600px;
+}
+
+.arrow-box-image{
+    margin-bottom: 20px;
+}
+
+.arrow-text-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-title{
+    width: 200px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.arrow-png{
+    margin-top: 170px;
+    margin-left: 170px;
+}

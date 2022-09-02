@@ -1,0 +1,46 @@
+.remember{
+    height: 350px;
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    background-image: url(../images/png/bgpng2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.remember-inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remember-box{
+    width: 450px;
+    text-align: center;
+}
+
+.remember-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.remember-text{
+    margin-bottom: 20px;
+}
+
+.remember-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+.remember-link:hover{
+    color: #000;
+    background-color: #fff;
+}
+

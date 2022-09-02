@@ -1,0 +1,41 @@
+.plus{
+    height: 500px;
+    margin: 170px 0;
+}
+
+.plus-inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus-box{
+    width: 600px;
+}
+
+.plus-title{
+    font-size: 60px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+.plus-line{
+    display: inline-block;
+    width: 600px;
+    height: 5px;
+    background-color: #000;
+}
+
+.plus-text{
+    font-weight: bold;
+    margin: 7px 20px;
+}
+
+.plus-text::after{
+    content: '+';
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    transform: translateY(2px);
+    margin-left: 60px;
+}

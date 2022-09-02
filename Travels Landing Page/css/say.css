@@ -1,0 +1,52 @@
+.say{
+    height: 800px;
+    padding: 27px 0;
+    text-align: center;
+    background-image: url(../images/png/bgpng6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.say-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.say-title{
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.say-box{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*----------------------Say Card--------------- */
+
+.say-card{
+    width: 380px;
+    height: 420px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-png{
+    margin-bottom: 40px;
+}
+
+.say-card-title{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+.anywhere{
+    height: 800px;
+    background-color: #000;
+    color: #fff;
+    padding: 150px 0;
+    background-image: url(../images/png/bgpng5.png);
+    background-repeat: no-repeat;
+    background-position-y: 670px;
+    background-position-x: -70px;
+}
+
+.anywhere-inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.anywhere-box{
+    width: 450px;
+    margin-right: 100px;
+}
+
+.anywhere-title{
+    font-size: 47px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+.anywhere-text-title{
+    margin-bottom: 10px;
+}
+
+.anywhere-text{
+    margin-bottom: 40px;
+}
+
+/*--------------------Anywhere image----------------------------*/
+.anywhere-image{
+    position: absolute;
+    height: 500px;
+    right: 0px;
+}
